@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Harry P';
+    src: url('./assets/fonts/HARRYP__.woff2') format('woff2'),
+        url('./assets/fonts/HARRYP__.TTF') format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#root {
+    font-family: 'Harry P', sans-serif;
+    background-color: #333;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+}
+.personagemDiv {
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #CCC;
+    margin: 30px;
+    border-radius: 25px;
+}
+.personagemDiv h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.gryffindor {
+    box-shadow: 0 0 15px 15px rgba(255, 0, 0, 0.5);
+}
+.slytherin {
+    box-shadow: 0 0 15px 15px rgba(0, 255, 0, 0.5);
+}
+.hufflepuff {
+    box-shadow: 0 0 15px 15px rgba(255, 255, 0, 0.5);
+}
+.ravenclaw {
+    box-shadow: 0 0 15px 15px rgba(0, 0, 255, 0.5);
+}
+.desconhecida {
+    box-shadow: 0 0 15px 15px rgba(128, 128, 128, 0.5);
+}
